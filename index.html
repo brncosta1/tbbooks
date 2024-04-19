@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TB Books</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="conteiner">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+            <span class="cabeçalho__menu-hamburguer  container__imagem"></span></label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Mais vendidos</a>  
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Promoções</a>  
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Lançamentos</a>  
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Pré-venda</a>  
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Gêneros</a>  
+                </li>
+            </ul>
+            <img class="container__imagem" src="/img/TB logo.png" alt="Logo do TB books">
+            <h1 class="container__titulo"><b class="container__titulo--negrito">TheBrothers </b>Books</h1>
+        </div>
+
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+            <label for="opcoes-menu" class="opcoes__rotulo">
+                <li class="opcoes__itens">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+     
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Mais vendidos</a>  
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Promoções</a>  
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Lançamentos</a>  
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Pré-venda</a>  
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Gêneros</a>  
+                </li>
+            </ul>
+
+
+            <li class="opcoes__itens"><a href="#" class="opcoes__link">Favoritos</a></li>
+            <li class="opcoes__itens"><a href="#" class="opcoes__link">Minha estante</a></li>
+        </ul>
+
+        <div class="container">
+            <a href="#">
+                <img src="/img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem container__imagem--transparente">
+            </a>
+            <a href="#" class="container__link">
+                <img src="img/Compras.svg" alt="Carrinho de Compras" class="container__imagem">
+                <p class="container__texto">Minha sacola</p>
+            </a>
+            <a href="#" class="container__link"></a>
+                <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Encontre em nossa estante o que precisa para aumentar a sua paixão pela leitura.</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será a sua próxima leitura?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Mais vendidos</h2>
+        <div class="carrossel__container">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination-bullet-active"></div>
+            <div class="swiper-pagination-bullets"></div>
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="/img/GOT.jpg" alt="Livro Game Of Thrones"></div>
+              <div class="swiper-slide"><img src="/img/HOD.jpg" alt="Livro House of The Dragon"></div>
+              <div class="swiper-slide"><img src="/img/twd.jpg" alt="Livro The Walking Dead"></div>
+              <div class="swiper-slide"><img src="/img/lupin.jpg" alt="Livro Lupin"></div>
+              <div class="swiper-slide"><img src="/img/vikings.jpg" alt="Livro Vikings"></div>
+              <div class="swiper-slide"><img src="/img/aartedaguerra.jpg" alt="Livro A arte da Guerra"></div>
+              <div class="swiper-slide"><img src="/img/cafecomdeus.jpg" alt="Livro Café com Deus Pai"></div>
+              <div class="swiper-slide"><img src="/img/domcasmurro.jpg" alt="Livro Dom Casmurro"></div>
+              <div class="swiper-slide"><img src="/img/hobbit.jpg" alt="Livro O Hobbit"></div>
+              <div class="swiper-slide"><img src="/img/poderhabito.jpg" alt="Livro O Poder do Hábito"></div>
+              <div class="swiper-slide"><img src="/img/oprincipe.jpg" alt="Livro O Príncipe"></div>
+              <div class="swiper-slide"><img src="/img/spwn.jpg" alt="HQ Spawn"></div>
+              <div class="swiper-slide"><img src="/img/the boys.jpg" alt="HQ The boys"></div>
+            </div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+          </div>
+
+          <div class="card">
+            <div class="card__descricao">
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                    <h2 class="descricao__titulo-livro">LEBRON</h2>
+                    <p class="descricao__texto">A biografia definitiva do maior jogador de basquete do século XXI, ícone global e bilionário, baseada em três anos de pesquisa e em mais de 250 entrevistas.</p>
+                </div>
+                <img class="descricao__imagem" src="/img/lebron.jpg" alt="Livro LEBRON">
+            </div>
+
+            <div class="card__botoes">
+                <ul class="botoes">
+                    <li class="botoes_itens"><img src="/img/Favoritos.svg" alt="Favoritar Livro"></li>
+                    <li class="botoes__itens"><img src="/img/Compras.svg" alt="Adicionar ao carrinho de compras"></li>
+                </ul>
+
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+        <section class="carrossel2">
+            <h2 class="carrossel__titulo2">Lançamentos</h2>
+            <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="/img/babilonia.jpg" alt="Livro O Homem mais rico da Babilônia"></div>
+                  <div class="swiper-slide"><img src="/img/eassimqueacaba.jpg" alt="Livro Assim que acaba"></div>
+                  <div class="swiper-slide"><img src="/img/habitos.jpg" alt="Livro Hábitos Atômicos"></div>
+                  <div class="swiper-slide"><img src="/img/homemmaisfeliz.jpg" alt="O Homem mais feliz do mundo"></div>
+                  <div class="swiper-slide"><img src="/img/kobe.jpg" alt="Livro Kobe Bryant: Mamba Mentality"></div>
+                  <div class="swiper-slide"><img src="/img/nuncaehora.jpg" alt="Livro Nunca é a hora de parar"></div>
+                  <div class="swiper-slide"><img src="/img/pensecomo.jpg" alt="Livro Pense como um imperador"></div>
+                  <div class="swiper-slide"><img src="/img/pensedenovo.jpg" alt="Livro Pense de novo"></div>
+                  <div class="swiper-slide"><img src="/img/podersilencio.jpg" alt="Livro O poder do silêncio"></div>
+                  <div class="swiper-slide"><img src="/img/poruqefazemos.jpg" alt="Livro Por que fazemos o que fazemos?"></div>
+                  <div class="swiper-slide"><img src="/img/sunrise.jpg" alt="Livro Sunrise"></div>
+
+            </div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+              </div>
+    
+              <div class="card">
+                <div class="card__descricao">
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">★ ★ ★ ★ ★ </h3>
+                        <h4 class="descricao__titulo">Artista do Mês </h4>
+                        <h2 class="descricao__titulo-autor">_joestrela</h2>
+                        <p class="descricao__texto">Matheus Brisola é um Artista Brasileiro que realiza comissões em desenhos digitais para clientes espalhados pelo mundo inteiro.</p>
+                    </div>
+                    <img class="descricao__imagem" src="/img/joestrela.jpg" alt="Desenho do artista @_joestrela">
+                </div>
+    
+                <div class="card__botoes">
+                    <ul class="botoes">
+                        <li class="botoes_itens"><img src="/img/Favoritos.svg" alt="Favoritar Livro"></li>
+                        <li class="botoes__itens"><img src="/img/Compras.svg" alt="Adicionar ao carrinho de compras"></li>
+                    </ul>
+    
+                    <a href="#" class="botoes__ancora">Saiba mais</a>
+                </div>
+              </div>
+            </div>
+    </section>
+
+    <section class="topicos">
+        <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+            <ul class="topicos__lista">
+                <li class="topicos_item">
+                    <a href="#" class="topicos__link">Romance</a>
+                </li>
+                <li class="topicos_item">
+                    <a href="#" class="topicos__link">Ficção Científica</a>
+                </li>
+                <li class="topicos_item">
+                    <a href="#" class="topicos__link">Aventura</a>
+                </li>
+                <li class="topicos_item">
+                    <a href="#" class="topicos__link">Biografia/Autobiografia</a>
+                </li>
+                <li class="topicos_item">
+                    <a href="#" class="topicos__link">História</a>
+                </li>
+                <li class="topicos_item">
+                    <a href="#" class="topicos__link">Quadrinhos/Mangás</a>
+                </li>
+                <li class="topicos_item">
+                    <a href="#" class="topicos__link">Autoajuda/Desenvolvimento pessoal</a>
+                </li>
+                <li class="topicos_item">
+                    <a href="#" class="topicos__link">Poesia</a>
+                </li>
+            </ul>
+    </section>
+
+    <section class="contato">
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
+        <input type="email" placeholder="Cadastre o seu e-mail" class="contato__email">
+
+    </section>
+
+    <hr/>
+
+    <footer class="rodape">
+        <div class="container__rodape"></div>
+        <h2 class="rodape__titulo">Grupo The Brothers</h2>
+        <img class="rodape__imagem" src="/img/TB logo.png" alt="Logo do The Brothers">
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        }
+    });
+    </script>
+</body>
+</html>

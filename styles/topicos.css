@@ -1,0 +1,59 @@
+.topicos {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(137,50,50,1) 100%, rgba(0,212,255,1) 100%);
+    text-align: center;
+    padding: 1em 0;
+}
+
+.topicos__titulo {
+    color: #e4e6e7;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.topicos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topicos__link {
+    color: #742e2e;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    background-color: #e4e6e7;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.topicos_item {
+    margin: 1.5em 0.5em;
+}
+
+@media screen and (min-width: 1024px) {
+    .topicos__titulo {
+        font-size: 24px;
+        margin-bottom: 1.5em;
+    }
+
+    .topicos__link {
+        font-size: 14px;
+    }
+
+    .topicos_item:hover {
+        transform: scale(1.05);
+        transition: 1s;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .topicos {
+        padding: 1em 20vw;
+    }
+
+}

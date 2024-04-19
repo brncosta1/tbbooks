@@ -1,0 +1,29 @@
+hr {
+    margin: 0;
+}
+
+.rodape {
+    background-color: #e4e6e7;
+    padding: 1em;
+}
+
+
+    .rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .rodape__imagem {
+        display: flex;
+        margin: 1em;
+    }
+
+    .container__rodape {
+        display: flex;
+    }
+
+    .rodape__titulo {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 30px;
+    }
